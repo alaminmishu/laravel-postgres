@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="folders">
+      <list>
+        <folderState>
+          <option name="environmentGroups">
+            <list>
+              <environmentGroupState>
+                <option name="name" value="Default" />
+              </environmentGroupState>
+            </list>
+          </option>
+          <option name="folders">
+            <list>
+              <folderState>
+                <option name="id" value="707b2732-e0a3-4423-804c-8edda0836b27" />
+                <option name="name" value="access" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="2ff8bcb3-9d29-4bab-89c9-a5e9e28ee2ac" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="Register" />
+                      <option name="sortWeight" value="1000000" />
+                      <option name="url" value="http://localhost:85/api/" />
+                    </requestState>
+                    <requestState>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Content-Type" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="5afd980b-a4b3-4cdd-be57-673f8c463f65" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="Login" />
+                      <option name="sortWeight" value="2000000" />
+                      <option name="url" value="http://localhost:85/api/" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="1000000" />
+              </folderState>
+              <folderState>
+                <option name="id" value="4c213b8a-2169-42c7-b9c8-86af7002ecb0" />
+                <option name="name" value="posts" />
+                <option name="requests">
+                  <list>
+                    <requestState>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Accept" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="54496ebb-01cb-48df-a79a-1b5cf325873b" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="getall" />
+                      <option name="sortWeight" value="1000000" />
+                      <option name="url" value="http://localhost:85/api/posts/1" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;title&quot;: &quot;Post 2 Update&quot;,&#10;  &quot;body&quot;: &quot;this is the post body&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Accept" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="550c2dc1-f2b7-4263-b7fd-a70cdbda5c6f" />
+                      <option name="method" value="PUT" />
+                      <option name="name" value="store" />
+                      <option name="sortWeight" value="2000000" />
+                      <option name="url" value="http://localhost:85/api/posts/2" />
+                    </requestState>
+                    <requestState>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Accept" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="1640ecd3-7888-407c-99b9-050f6a7d8810" />
+                      <option name="method" value="DELETE" />
+                      <option name="name" value="getone" />
+                      <option name="sortWeight" value="3000000" />
+                      <option name="url" value="http://localhost:85/api/posts/2" />
+                    </requestState>
+                    <requestState>
+                      <option name="body">
+                        <bodyState>
+                          <option name="raw" value="{&#10;  &quot;title&quot;: &quot;Post 2&quot;,&#10;  &quot;body&quot;: &quot;this is the post body&quot;&#10;}" />
+                          <option name="type" value="JSON" />
+                        </bodyState>
+                      </option>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Accept" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="0ce3bb82-3aa7-467e-a5b8-263cdc59c8ca" />
+                      <option name="method" value="POST" />
+                      <option name="name" value="update" />
+                      <option name="sortWeight" value="4000000" />
+                      <option name="url" value="http://localhost:85/api/posts" />
+                    </requestState>
+                    <requestState>
+                      <option name="headers">
+                        <list>
+                          <headerState>
+                            <option name="key" value="Accept" />
+                            <option name="value" value="application/json" />
+                          </headerState>
+                        </list>
+                      </option>
+                      <option name="id" value="8e42ce6b-c510-4a4c-90d0-97fe8de6177c" />
+                      <option name="method" value="GET" />
+                      <option name="name" value="delete" />
+                      <option name="sortWeight" value="5000000" />
+                      <option name="url" value="http://localhost:85/api/posts/1" />
+                    </requestState>
+                  </list>
+                </option>
+                <option name="sortWeight" value="2000000" />
+              </folderState>
+            </list>
+          </option>
+          <option name="id" value="636da362-333d-4042-b123-f471c3f9a022" />
+          <option name="name" value="laravel-postgres" />
+          <option name="selectedEnvironmentIds">
+            <map>
+              <entry key="default" />
+            </map>
+          </option>
+          <option name="syncProperties">
+            <synchronizationPropertiesState>
+              <option name="autoSync" value="true" />
+              <option name="folderPath" value="$PROJECT_DIR$/.jetclient" />
+            </synchronizationPropertiesState>
+          </option>
+        </folderState>
+      </list>
+    </option>
+    <option name="id" value="b2ac0009-133e-4bb4-b6ec-b1381dde874a" />
+    <option name="version" value="6" />
+  </component>
+</project>
