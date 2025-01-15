@@ -33,7 +33,7 @@ RUN docker-php-ext-install \
     ctype \
     curl \
     pcntl \
-    zip 
+    zip
 
 # Install Postgre PDO
 RUN apt-get install -y libpq-dev \
@@ -43,6 +43,11 @@ RUN apt-get install -y libpq-dev \
 # Install NPM
 RUN curl -fsSL https://deb.nodesource.com/setup_lts.x | bash -
 RUN apt-get install -y nodejs
+
+RUN sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+RUN git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+RUN git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+RUN git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Clear cache
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
