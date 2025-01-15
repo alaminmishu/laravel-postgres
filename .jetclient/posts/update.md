@@ -1,9 +1,9 @@
 ```toml
 name = 'update'
-method = 'POST'
-url = 'http://localhost:85/api/posts'
-sortWeight = 4000000
-id = '0ce3bb82-3aa7-467e-a5b8-263cdc59c8ca'
+method = 'PUT'
+url = 'http://localhost:85/api/posts/2'
+sortWeight = 2000000
+id = '550c2dc1-f2b7-4263-b7fd-a70cdbda5c6f'
 
 [[headers]]
 key = 'Accept'
@@ -13,7 +13,7 @@ value = 'application/json'
 type = 'JSON'
 raw = '''
 {
-  "title": "Post 2",
+  "title": "Post 2 Update",
   "body": "this is the post body"
 }'''
 ```
