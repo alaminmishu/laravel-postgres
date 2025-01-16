@@ -89,7 +89,7 @@
                       </option>
                       <option name="id" value="550c2dc1-f2b7-4263-b7fd-a70cdbda5c6f" />
                       <option name="method" value="PUT" />
-                      <option name="name" value="store" />
+                      <option name="name" value="update" />
                       <option name="sortWeight" value="2000000" />
                       <option name="url" value="http://localhost:85/api/posts/2" />
                     </requestState>
@@ -106,12 +106,12 @@
                       <option name="method" value="DELETE" />
                       <option name="name" value="getone" />
                       <option name="sortWeight" value="3000000" />
-                      <option name="url" value="http://localhost:85/api/posts/2" />
+                      <option name="url" value="http://localhost:85/api/posts/" />
                     </requestState>
                     <requestState>
                       <option name="body">
                         <bodyState>
-                          <option name="raw" value="{&#10;  &quot;title&quot;: &quot;Post 2&quot;,&#10;  &quot;body&quot;: &quot;this is the post body&quot;&#10;}" />
+                          <option name="raw" value="{&#10;//  &quot;title&quot;: &quot;Post 1&quot;,&#10;  &quot;body&quot;: &quot;this is the post body&quot;&#10;}" />
                           <option name="type" value="JSON" />
                         </bodyState>
                       </option>
@@ -125,7 +125,7 @@
                       </option>
                       <option name="id" value="0ce3bb82-3aa7-467e-a5b8-263cdc59c8ca" />
                       <option name="method" value="POST" />
-                      <option name="name" value="update" />
+                      <option name="name" value="create" />
                       <option name="sortWeight" value="4000000" />
                       <option name="url" value="http://localhost:85/api/posts" />
                     </requestState>
